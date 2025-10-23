@@ -10,13 +10,13 @@ const OurTrack = () => {
   }, []);
   console.log(course);
   return (
-    <section>
+    <section className="py-5">
       <div className="container mx-auto px-4 py-6">
         <h2 className="font-bold text-center text-3xl mb-4">Our Tracks</h2>
         <p className="text-center text-gray-500 text-xl mb-4">
           Lorem Ipsum is simply dummy text of the printing.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-5 my-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-5 my-6">
           {course.map((course) => (
             <CourseCard key={course.id} course={course}></CourseCard>
           ))}

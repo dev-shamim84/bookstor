@@ -14,9 +14,9 @@ const CourseCard = ({ course }) => {
   } = course;
 
   return (
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden max-w-sm w-full">
+    <div className="bg-white rounded-xl shadow-md flex flex-col ">
       {/* Image */}
-      <img src={image} alt={title} className="w-full object-cover" />
+      <img src={image} alt={title} className="w-full rounded-xl object-cover" />
 
       {/* Content */}
       <div className="p-5 ">
@@ -41,7 +41,7 @@ const CourseCard = ({ course }) => {
         <p className="text-xl font-bold text-amber-500">${price}</p>
 
         {/* Duration & Course Count */}
-        <div className="text-sm relative text-gray-600 flex flex-wrap gap-4 mt-3 pb-4">
+        <div className="text-sm  relative text-gray-600 flex flex-wrap gap-4 mt-3 pb-4 ">
           <p>
             🕒 {duration.hours}h {duration.minutes}m
           </p>
