@@ -1,0 +1,52 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "UI/UX Design for Beginners",
+      "category": "UI/UX Design",
+      "image": "https://i.ibb.co.com/VX4hksS/little-girl-participating-online-classes-1.png",
+      "price": 98,
+      "rating": 4,
+      "maxRating": 5,
+      "duration": {
+        "hours": 22,
+        "minutes": 30
+      },
+      "courseCount": 34,
+      "sales": 250,
+      "buttonText": "Join Course"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Web Development",
+      "category": "Web Development",
+      "image": "https://i.ibb.co.com/0y4jcJyK/image-6.png",
+      "price": 149,
+      "rating": 5,
+      "maxRating": 5,
+      "duration": {
+        "hours": 35,
+        "minutes": 15
+      },
+      "courseCount": 42,
+      "sales": 580,
+      "buttonText": "Join Course"
+    },
+    {
+      "id": 3,
+      "title": "Mobile App Design Masterclass",
+      "category": "Mobile Design",
+      "image": "https://i.ibb.co.com/My4CGtK4/image-7.png",
+      "price": 129,
+      "rating": 4.5,
+      "maxRating": 5,
+      "duration": {
+        "hours": 28,
+        "minutes": 45
+      },
+      "courseCount": 38,
+      "sales": 420,
+      "buttonText": "Join Course"
+    }
+  ]
+}

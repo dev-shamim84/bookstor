@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-3">
           {/* Left side brand/title */}
-          <div className="text-xl font-bold flex gap-2 items-center">
+          <div className=" font-bold flex gap-2 items-center">
             <img src={logoBook} alt="logoBook" />
             <span>Book Store</span>
           </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             <NavLink className={navLinkClass}>Courses</NavLink>
             <NavLink className={navLinkClass}>Our Services</NavLink>
             <NavLink className={navLinkClass}>Contact</NavLink>
-            <button className="px-4 py-2 bg-[purple] text-white rounded-full">
+            <button className="px-4 py-2 bg-[#4D2C5E] text-white rounded-full">
               Sign In
             </button>
           </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <NavLink className={navLinkClass}>About</NavLink>
             <NavLink className={navLinkClass}>Services</NavLink>
             <NavLink className={navLinkClass}>Contact</NavLink>
-            <button className="mt-2 px-4 py-2 bg-[purple] text-white rounded-full w-full  ">
+            <button className="mt-2 px-4 py-2 bg-[#4D2C5E] text-white rounded-full w-full  ">
               Sign In
             </button>
           </div>
