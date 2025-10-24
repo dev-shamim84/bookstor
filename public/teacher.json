@@ -1,0 +1,29 @@
+[
+  { "id":1,
+     "name":"Matthew E. McNatt",
+     "profession":"Professor @George Brown College",
+     "des":"Ut enim ad minim veniam quis nost exercitationullamco laboris nisi ut allquip ex commodo",
+     "dep":"Engineering physics",
+     "img":"https://i.ibb.co.com/60JmFMQr/Group-337.png",
+     "instagram":"https://i.ibb.co.com/DDWtFY6Q/174857-1.png",
+     "linkedIn":"https://i.ibb.co.com/Xxrv2F7M/Instagram-logo-2016-1.png"
+  },
+  { "id":1,
+     "name":"Cynthia A. Nelson",
+     "profession":"Professor @George Brown College",
+     "des":"Ut enim ad minim veniam quis nost exercitationullamco laboris nisi ut allquip ex commodo",
+     "dep":"Engineering physics",
+     "img":"https://i.ibb.co.com/d4gfXCKk/Group-338.png",
+     "instagram":"https://i.ibb.co.com/DDWtFY6Q/174857-1.png",
+     "linkedIn":"https://i.ibb.co.com/Xxrv2F7M/Instagram-logo-2016-1.png"
+  },
+  { "id":2,
+     "name":"Tracy D. Wright",
+     "profession":"Professor @George Brown College",
+     "des":"Ut enim ad minim veniam, quis nost exercitationullamco laboris  nisi ut allquip ex commodo.",
+     "dep":"Engineering physics",
+     "img":"https://i.ibb.co.com/99KdHGLK/Group-339.png",
+     "instagram":"https://i.ibb.co.com/DDWtFY6Q/174857-1.png",
+     "linkedIn":"https://i.ibb.co.com/Xxrv2F7M/Instagram-logo-2016-1.png"
+  }
+]

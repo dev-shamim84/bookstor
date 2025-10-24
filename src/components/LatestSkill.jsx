@@ -7,7 +7,7 @@ const LatestSkill = () => {
             <img src="/src/assets/online-test 1 (1).png" alt="online-test " />
           </div>
           <div>
-            <h2 className="font-bold text-white mb-2">
+            <h2 className="font-semibold text-xl text-white mb-2">
               Learn The Latest Skills
             </h2>
             <p className="text-sm text-gray-300">
@@ -21,7 +21,7 @@ const LatestSkill = () => {
             <img src="/src/assets/online-test 1 (1).png" alt="online-test " />
           </div>
           <div>
-            <h2 className="font-bold text-white mb-2">
+            <h2 className="font-semibold text-xl text-white mb-2">
               Get Ready For a Career
             </h2>
             <p className="text-sm text-gray-300">
@@ -35,7 +35,9 @@ const LatestSkill = () => {
             <img src="/src/assets/online-test 1 (1).png" alt="online-test " />
           </div>
           <div>
-            <h2 className="font-bold text-white mb-2">Earn a Certificate</h2>
+            <h2 className="font-semibold text-xl text-white mb-2">
+              Earn a Certificate
+            </h2>
             <p className="text-sm text-gray-300">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a BC, making it over 2000 years old.
