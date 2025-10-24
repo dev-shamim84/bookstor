@@ -48,7 +48,7 @@ const Testimonial = () => {
           Lorem Ipsum is simply dummy text of the printing.
         </p>
       </div>
-      <div className="max-w-5xl mx-auto px-4 py-2">
+      <div className="max-w-5xl mx-auto px-4 my-3">
         <Slider {...settings}>
           {review.map((review) => (
             <Review key={review.id} review={review}></Review>

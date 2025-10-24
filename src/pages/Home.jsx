@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import LatestSkill from "../components/Latestskill";
+import Newsletter from "../components/Newsletter ";
 import OurTrack from "../components/OurTrack";
 import Premium from "../components/Premium";
 import Testimonial from "../components/Testimonial";
@@ -14,6 +15,7 @@ const Home = () => {
       <Premium></Premium>
       <Testimonial></Testimonial>
       <Track></Track>
+      <Newsletter></Newsletter>
     </>
   );
 };
