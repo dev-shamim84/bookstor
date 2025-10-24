@@ -16,7 +16,11 @@ const CourseCard = ({ course }) => {
   return (
     <div className="bg-white rounded-xl shadow-md flex flex-col ">
       {/* Image */}
-      <img src={image} alt={title} className="w-full rounded-xl object-cover" />
+      <img
+        src={image}
+        alt={title}
+        className="max-w-full rounded-xl object-cover"
+      />
 
       {/* Content */}
       <div className="p-5 ">

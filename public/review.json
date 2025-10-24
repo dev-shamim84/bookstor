@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "reviewText": "I’ve been using this product for a few weeks now and I must say it has completely exceeded my expectations. The design is elegant, the performance is smooth, and the support team is always quick to respond whenever I have a question. It’s rare to find something that’s both high quality and affordable at the same time.",
+    "img": "https://i.ibb.co.com/Q7P8hWyJ/review2.png",
+    "name": "Arif Ahmed",
+    "job": "Web Developer"
+  },
+  {
+    "id": 2,
+    "reviewText": "The service was fast, efficient, and super friendly. I really appreciated how they handled every step of the process with care. From ordering to delivery, everything went perfectly. I’ll definitely recommend this to my friends and colleagues who are looking for reliable service.",
+    "img": "https://i.ibb.co.com/KcMbpmwy/review1.png",
+    "name": "Liza Rahman",
+    "job": "Graphic Designer"
+  },
+  {
+    "id": 3,
+    "reviewText": "The product quality is impressive and it works exactly as advertised. Although the delivery took a little longer than I expected, the overall experience was positive. I’ve used similar products before, but this one stands out for its attention to detail and user-friendly interface.",
+    "img": "https://i.ibb.co.com/tTzLWRtQ/review.png",
+    "name": "Mostafizur Rahman",
+    "job": "Data Analyst"
+  },
+  {
+    "id": 4,
+    "reviewText": "I’m really happy with how intuitive and clean the user interface is. As someone who values simplicity, I found this product very easy to use right from the start. Everything feels well thought-out and organized, which makes my daily workflow much smoother and enjoyable.",
+    "img": "https://i.ibb.co.com/Q7P8hWyJ/review2.png",
+    "name": "Sumaiya Khan",
+    "job": "UX Designer"
+  },
+  {
+    "id": 5,
+    "reviewText": "Overall, I had a great experience with this product. It’s packed with useful features, and even though there’s room for improvement, I can see the potential. The team behind it clearly cares about user feedback, and I’m confident future updates will make it even better.",
+    "img": "https://i.ibb.co.com/tTzLWRtQ/review.png",
+    "name": "Rakibul Islam",
+    "job": "Frontend Developer"
+  },
+  {
+    "id": 6,
+    "reviewText": "The customer support team deserves a huge shoutout. I had a few issues during setup, but they patiently guided me through everything step by step. Their professionalism and dedication really stood out. It’s rare to see such commitment these days, and it made me trust the brand even more.",
+    "img": "https://i.ibb.co.com/KcMbpmwy/review1.png",
+    "name": "Nasrin Akter",
+    "job": "Content Writer"
+  }
+  
+]

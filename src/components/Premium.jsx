@@ -7,7 +7,7 @@ const Premium = () => {
   return (
     <section className="bg-[#FDF8EE] ">
       <div className="container mx-auto px-4 py-6">
-        <div className="flex gap-20 md:gap-10 flex-col-reverse md:flex-row justify-between">
+        <div className="flex gap-20 md:gap-10 flex-col-reverse lg:flex-row justify-between">
           <div className="flex-1">
             <div>
               <img
@@ -27,7 +27,9 @@ const Premium = () => {
                 <img src={heartImg} alt="" />
               </div>
               <div>
-                <h4 className="font-bold text-2xl mb-2">Easily Accessible</h4>
+                <h4 className="font-bold text-xl lg:text-2xl mb-2">
+                  Easily Accessible
+                </h4>
                 <p className="text-gray-500">
                   Learning Will fell Very Comfortable With Courslab.
                 </p>
@@ -38,7 +40,9 @@ const Premium = () => {
                 <img src={jigImg} alt="" />
               </div>
               <div>
-                <h4 className="font-bold text-2xl mb-2">Fun learning expe</h4>
+                <h4 className="font-bold text-xl lg:text-2xl mb-2">
+                  Fun learning expe
+                </h4>
                 <p className="text-gray-500">
                   Learning Will fell Very Comfortable With Courslab.
                 </p>
