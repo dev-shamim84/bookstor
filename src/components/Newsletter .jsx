@@ -1,15 +1,14 @@
 import { FaArrowRight } from "react-icons/fa";
-
 const Newsletter = () => {
   return (
     <section className="py-6">
       <div className="container mx-auto bg-[#4D2C5E] relative py-16 ">
         <div className="absolute top-5 left-5 w-20 h-20 border-2 border-white/30 rounded-full"></div>
         <div className="absolute top-10 right-10 w-16 h-16 border-2 border-white/30 rounded-full"></div>
-        <div className="absolute bottom-8 left-8 rotate-45 text-orange-400 text-3xl">
+        <div className="absolute bottom-0 lg:bottom-8  left-8 rotate-45 text-orange-400 text-3xl">
           ↩
         </div>
-        <div className="absolute bottom-6 right-8 text-yellow-400 text-3xl">
+        <div className="absolute bottom-2 lg:bottom-6 right-8 text-yellow-400 text-3xl">
           💡
         </div>
 

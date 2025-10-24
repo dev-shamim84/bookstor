@@ -1,4 +1,5 @@
 import { FaBook } from "react-icons/fa";
+import bookImg from "../assets/logobook.png";
 
 const Footer = () => {
   return (
@@ -6,8 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 lg:gap-8 text-center md:text-left">
           <div className="flex flex-col items-center md:items-start">
-            <div className="flex items-center gap-2 mb-3">
-              <FaBook className="text-purple-600 text-2xl" />
+            <div className="flex  gap-2 mb-3">
+              <img src={bookImg} alt="" />
               <h2 className="text-xl font-semibold text-gray-800">
                 Book Store
               </h2>
