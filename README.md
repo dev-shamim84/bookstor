@@ -3,4 +3,7 @@
 // Nice and clean ui 
 // Using React Component 
 // Using react slick slider in review section
+// using fake json data in every card and review section
+// it's fully responssive using tailwind css 
+
 
