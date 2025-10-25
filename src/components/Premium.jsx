@@ -9,11 +9,13 @@ const Premium = () => {
       <div className="container mx-auto px-4 py-6">
         <div className="flex gap-20 md:gap-10 flex-col-reverse lg:flex-row justify-between">
           <div className="flex-1">
-            <img
-              className=" w-[500px] object-contain"
-              src={premiumImg}
-              alt=""
-            />
+            <div>
+              <img
+                className=" w-[500px] h-[480px]  object-contain"
+                src={premiumImg}
+                alt=""
+              />
+            </div>
           </div>
           <div className="flex-1 my-5 relative">
             <h2 className=" font-extrabold text-3xl md:text-[50px] leading-tight text-center md:text-left">

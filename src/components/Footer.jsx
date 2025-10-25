@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-4 lg:gap-8 text-center justify-center md:text-left">
           <div className="flex flex-col items-center md:items-start md:justify-center">
-            <div className="flex gap-2 mb-3 items-center">
+            <div className="flex gap-2 mb-3 items-center md:items-start">
               <img src={bookImg} alt="" />
               <h2 className="text-xl font-semibold text-gray-800">
                 Book Store
