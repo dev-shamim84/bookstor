@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import LatestSkill from "../components/Latestskill";
+import LatestSkill from "../components/LatestSkill";
 import Newsletter from "../components/Newsletter ";
 import OurTrack from "../components/OurTrack";
 import Premium from "../components/Premium";

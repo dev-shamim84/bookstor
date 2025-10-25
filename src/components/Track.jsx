@@ -17,7 +17,7 @@ const Track = () => {
         <p className="text-gray-400 text-center">
           Lorem Ipsum is simply dummy text of the printing.
         </p>
-        <div className="mt-5 grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap5">
+        <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap5">
           {teacher.map((teacher) => (
             <TeacherCard key={teacher.id} teacher={teacher}></TeacherCard>
           ))}

@@ -1,53 +1,19 @@
-import examImg from "../assets/exam 1.png";
-import onlineImg from "../assets/online-test 1 (1).png";
-import certificacteImg from "../assets/certification 1.png";
+import { useEffect, useState } from "react";
+import LatestCard from "./LatestCard";
 
 const LatestSkill = () => {
+  const [latest, setLatest] = useState([]);
+  useEffect(() => {
+    fetch("/latest.json")
+      .then((res) => res.json())
+      .then((data) => setLatest(data));
+  }, []);
   return (
-    <section className="mt-[-75px] pb-4">
-      <div className="max-w-5xl gap-5 lg:gap-10 flex flex-col items-center lg:flex-row lg:justify-between mx-auto bg-[#4D2C5E] rounded-[10px] px-5 py-10 ">
-        <div className="flex gap-4 items-center">
-          <div className="bg-[#998d995b] p-5 rounded-2xl ">
-            <img src={examImg} alt="online-test " />
-          </div>
-          <div>
-            <h2 className="font-semibold text-[18px] text-white mb-2">
-              Learn The Latest Skills
-            </h2>
-            <p className="text-sm text-gray-300">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a BC, making it over 2000 years old.
-            </p>
-          </div>
-        </div>
-        <div className="flex gap-4 items-center">
-          <div className="bg-[#998d995b] p-5 rounded-2xl ">
-            <img src={certificacteImg} alt="online-test " />
-          </div>
-          <div>
-            <h2 className="font-semibold text-[18px] text-white mb-2">
-              Get Ready For a Career
-            </h2>
-            <p className="text-sm text-gray-300">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a BC, making it over 2000 years old.
-            </p>
-          </div>
-        </div>
-        <div className="flex gap-4 items-center">
-          <div className="bg-[#998d995b] p-5 rounded-2xl ">
-            <img src={onlineImg} alt="online-test " />
-          </div>
-          <div>
-            <h2 className="font-semibold text-[18px] text-white mb-2">
-              Earn a Certificate
-            </h2>
-            <p className="text-sm text-gray-300">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a BC, making it over 2000 years old.
-            </p>
-          </div>
-        </div>
+    <section className="mt-[-75px] pb-4 py-4 ">
+      <div className="max-w-6xl grid grid-cols-1 lg:grid-cols-3 mx-auto gap-5 bg-[#4D2C5E] py-20 px-10 rounded-xl">
+        {latest.map((latest) => (
+          <LatestCard key={latest.id} latest={latest}></LatestCard>
+        ))}
       </div>
     </section>
   );

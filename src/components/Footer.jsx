@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer className="bg-[#FFF9F0] text-gray-700 py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 lg:gap-8 text-center md:text-left">
-          <div className="flex flex-col items-center md:items-start">
-            <div className="flex  gap-2 mb-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-4 lg:gap-8 text-center justify-center md:text-left">
+          <div className="flex flex-col items-center md:items-start md:justify-center">
+            <div className="flex gap-2 mb-3 items-center">
               <img src={bookImg} alt="" />
               <h2 className="text-xl font-semibold text-gray-800">
                 Book Store
@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div>
             <h3 className="font-semibold text-gray-900 mb-3">Company</h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm f">
               <li>
                 <a href="#" className="hover:text-purple-600">
                   About Us

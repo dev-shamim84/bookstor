@@ -6,14 +6,13 @@ const Hero = () => {
     <section className="bg-[#FDF8EE] pb-24 min-h-[80vh] flex items-center">
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-6">
-          {/* Left Side Content */}
           <div className="flex-1 order-2 lg:order-1 text-center lg:text-left">
             <h2 className="text-3xl md:text-[60px] font-bold leading-tight mb-4">
               The <span className="text-amber-600">Smart</span> <br />
               Choice For <span className="text-amber-600">Future</span>
             </h2>
 
-            <p className="text-[#8A8A8A] font-medium mb-4">
+            <p className="text-[#8A8A8A] font-medium  text-[20px] mb-4">
               Elearn is a global training provider based across the UK that
               specialises in accredited and bespoke training courses. We crush
               the...
@@ -35,7 +34,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Side Image */}
           <div className="flex-1 order-2 lg:order-2 justify-center md:justify-end">
             <img src={heroImg} alt="hero" className="w-full object-contain" />
           </div>
